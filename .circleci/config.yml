@@ -48,7 +48,7 @@ workflows:
   build-and-packge:
     jobs:
       - ci-build
-      - integration-tests
+      - integration-tests:
           requires:
             - ci-build
       - pack:
