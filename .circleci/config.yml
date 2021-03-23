@@ -71,7 +71,7 @@ workflows:
             - integration-tests             
       - pack:
           requires:
-            - integration-tests
+            - sast
           filters:
             branches:
               only:
