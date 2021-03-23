@@ -30,7 +30,7 @@ jobs:
       - checkout
       - install_deps
       - run:
-          name: run tests
+          name: run integration tests
           command: |
             npm run integration-tests
   pack:
